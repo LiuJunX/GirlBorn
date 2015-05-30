@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD533BC91B19F0E700146311 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD533BC81B19F0E700146311 /* AppDelegate.swift */; };
+		BD533BCC1B19F0E700146311 /* GirlBorn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD533BCA1B19F0E700146311 /* GirlBorn.xcdatamodeld */; };
+		BD533BCE1B19F0E700146311 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD533BCD1B19F0E700146311 /* ViewController.swift */; };
+		BD533BD11B19F0E700146311 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD533BCF1B19F0E700146311 /* Main.storyboard */; };
+		BD533BD31B19F0E700146311 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD533BD21B19F0E700146311 /* Images.xcassets */; };
+		BD533BD61B19F0E700146311 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD533BD41B19F0E700146311 /* LaunchScreen.xib */; };
+		BD533BE21B19F0E700146311 /* GirlBornTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD533BE11B19F0E700146311 /* GirlBornTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD533BDC1B19F0E700146311 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD533BBB1B19F0E700146311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD533BC21B19F0E700146311;
+			remoteInfo = GirlBorn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD533BC31B19F0E700146311 /* GirlBorn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GirlBorn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD533BC71B19F0E700146311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD533BC81B19F0E700146311 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD533BCB1B19F0E700146311 /* GirlBorn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GirlBorn.xcdatamodel; sourceTree = "<group>"; };
+		BD533BCD1B19F0E700146311 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD533BD01B19F0E700146311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD533BD21B19F0E700146311 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD533BD51B19F0E700146311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BD533BDB1B19F0E700146311 /* GirlBornTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GirlBornTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD533BE01B19F0E700146311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD533BE11B19F0E700146311 /* GirlBornTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirlBornTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD533BC01B19F0E700146311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD533BD81B19F0E700146311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD533BBA1B19F0E700146311 = {
+			isa = PBXGroup;
+			children = (
+				BD533BC51B19F0E700146311 /* GirlBorn */,
+				BD533BDE1B19F0E700146311 /* GirlBornTests */,
+				BD533BC41B19F0E700146311 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD533BC41B19F0E700146311 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD533BC31B19F0E700146311 /* GirlBorn.app */,
+				BD533BDB1B19F0E700146311 /* GirlBornTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD533BC51B19F0E700146311 /* GirlBorn */ = {
+			isa = PBXGroup;
+			children = (
+				BD533BC81B19F0E700146311 /* AppDelegate.swift */,
+				BD533BCD1B19F0E700146311 /* ViewController.swift */,
+				BD533BCF1B19F0E700146311 /* Main.storyboard */,
+				BD533BD21B19F0E700146311 /* Images.xcassets */,
+				BD533BD41B19F0E700146311 /* LaunchScreen.xib */,
+				BD533BCA1B19F0E700146311 /* GirlBorn.xcdatamodeld */,
+				BD533BC61B19F0E700146311 /* Supporting Files */,
+			);
+			path = GirlBorn;
+			sourceTree = "<group>";
+		};
+		BD533BC61B19F0E700146311 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD533BC71B19F0E700146311 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD533BDE1B19F0E700146311 /* GirlBornTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD533BE11B19F0E700146311 /* GirlBornTests.swift */,
+				BD533BDF1B19F0E700146311 /* Supporting Files */,
+			);
+			path = GirlBornTests;
+			sourceTree = "<group>";
+		};
+		BD533BDF1B19F0E700146311 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD533BE01B19F0E700146311 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD533BC21B19F0E700146311 /* GirlBorn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD533BE51B19F0E700146311 /* Build configuration list for PBXNativeTarget "GirlBorn" */;
+			buildPhases = (
+				BD533BBF1B19F0E700146311 /* Sources */,
+				BD533BC01B19F0E700146311 /* Frameworks */,
+				BD533BC11B19F0E700146311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GirlBorn;
+			productName = GirlBorn;
+			productReference = BD533BC31B19F0E700146311 /* GirlBorn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD533BDA1B19F0E700146311 /* GirlBornTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD533BE81B19F0E700146311 /* Build configuration list for PBXNativeTarget "GirlBornTests" */;
+			buildPhases = (
+				BD533BD71B19F0E700146311 /* Sources */,
+				BD533BD81B19F0E700146311 /* Frameworks */,
+				BD533BD91B19F0E700146311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD533BDD1B19F0E700146311 /* PBXTargetDependency */,
+			);
+			name = GirlBornTests;
+			productName = GirlBornTests;
+			productReference = BD533BDB1B19F0E700146311 /* GirlBornTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD533BBB1B19F0E700146311 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = JunMac;
+				TargetAttributes = {
+					BD533BC21B19F0E700146311 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					BD533BDA1B19F0E700146311 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = BD533BC21B19F0E700146311;
+					};
+				};
+			};
+			buildConfigurationList = BD533BBE1B19F0E700146311 /* Build configuration list for PBXProject "GirlBorn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD533BBA1B19F0E700146311;
+			productRefGroup = BD533BC41B19F0E700146311 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD533BC21B19F0E700146311 /* GirlBorn */,
+				BD533BDA1B19F0E700146311 /* GirlBornTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD533BC11B19F0E700146311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD533BD11B19F0E700146311 /* Main.storyboard in Resources */,
+				BD533BD61B19F0E700146311 /* LaunchScreen.xib in Resources */,
+				BD533BD31B19F0E700146311 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD533BD91B19F0E700146311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD533BBF1B19F0E700146311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD533BCE1B19F0E700146311 /* ViewController.swift in Sources */,
+				BD533BCC1B19F0E700146311 /* GirlBorn.xcdatamodeld in Sources */,
+				BD533BC91B19F0E700146311 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD533BD71B19F0E700146311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD533BE21B19F0E700146311 /* GirlBornTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD533BDD1B19F0E700146311 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD533BC21B19F0E700146311 /* GirlBorn */;
+			targetProxy = BD533BDC1B19F0E700146311 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD533BCF1B19F0E700146311 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD533BD01B19F0E700146311 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD533BD41B19F0E700146311 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD533BD51B19F0E700146311 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD533BE31B19F0E700146311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD533BE41B19F0E700146311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD533BE61B19F0E700146311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GirlBorn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD533BE71B19F0E700146311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GirlBorn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD533BE91B19F0E700146311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GirlBornTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GirlBorn.app/GirlBorn";
+			};
+			name = Debug;
+		};
+		BD533BEA1B19F0E700146311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GirlBornTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GirlBorn.app/GirlBorn";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD533BBE1B19F0E700146311 /* Build configuration list for PBXProject "GirlBorn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD533BE31B19F0E700146311 /* Debug */,
+				BD533BE41B19F0E700146311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD533BE51B19F0E700146311 /* Build configuration list for PBXNativeTarget "GirlBorn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD533BE61B19F0E700146311 /* Debug */,
+				BD533BE71B19F0E700146311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD533BE81B19F0E700146311 /* Build configuration list for PBXNativeTarget "GirlBornTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD533BE91B19F0E700146311 /* Debug */,
+				BD533BEA1B19F0E700146311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD533BCA1B19F0E700146311 /* GirlBorn.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD533BCB1B19F0E700146311 /* GirlBorn.xcdatamodel */,
+			);
+			currentVersion = BD533BCB1B19F0E700146311 /* GirlBorn.xcdatamodel */;
+			path = GirlBorn.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD533BBB1B19F0E700146311 /* Project object */;
+}
