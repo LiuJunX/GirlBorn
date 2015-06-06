@@ -8,15 +8,37 @@
 
 import UIKit
 import CoreData
+import Foundation
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, WebSocketDelegate {
 
     var window: UIWindow?
 
+    
+    func websocketDidConnect(socket: WebSocket) {
+        println("websocket is connected")
+    }
+    
+    func websocketDidDisconnect(socket: WebSocket, error: NSError?) {
+        println("websocket is disconnected: \(error?.localizedDescription)")
+    }
+    
+    func websocketDidReceiveMessage(socket: WebSocket, text: String) {
+        println("got some text: \(text)")
+    }
+    
+    func websocketDidReceiveData(socket: WebSocket, data: NSData) {
+        println("got some data: \(data.length)")
+    }
+    
+    
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        var socket = WebSocket(url: NSURL(scheme: "ws", host: "112.126.82.139:8080", path: "/websocket-echo/echo")!)
+        socket.delegate = self
+        socket.connect()
         return true
     }
 
