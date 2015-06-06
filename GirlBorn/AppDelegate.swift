@@ -14,10 +14,12 @@ import Foundation
 class AppDelegate: UIResponder, UIApplicationDelegate, WebSocketDelegate {
 
     var window: UIWindow?
+    var socket: WebSocket!
 
     
     func websocketDidConnect(socket: WebSocket) {
         println("websocket is connected")
+        self.socket.writeString("hello server")
     }
     
     func websocketDidDisconnect(socket: WebSocket, error: NSError?) {
@@ -36,7 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, WebSocketDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        var socket = WebSocket(url: NSURL(scheme: "ws", host: "112.126.82.139:8080", path: "/websocket-echo/echo")!)
+        socket = WebSocket(url: NSURL(scheme: "ws", host: "112.126.82.139:8080", path: "/websocket-echo/echo")!)
         socket.delegate = self
         socket.connect()
         return true
