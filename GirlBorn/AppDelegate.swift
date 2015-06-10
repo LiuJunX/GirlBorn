@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, WebSocketDelegate {
     
     func websocketDidConnect(socket: WebSocket) {
         println("websocket is connected")
-        self.socket.writeString("hello server")
+        self.socket.writeString("Login:LiuJun01:123456")
     }
     
     func websocketDidDisconnect(socket: WebSocket, error: NSError?) {
@@ -35,7 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, WebSocketDelegate {
     }
     
     
-
+    //112.126.82.139
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         socket = WebSocket(url: NSURL(scheme: "ws", host: "112.126.82.139:8080", path: "/websocket-echo/echo")!)
