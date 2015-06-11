@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD2459D81B22FED600390281 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2459D71B22FED600390281 /* WebSocket.swift */; };
-		BD2459DB1B22FEF700390281 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2459D91B22FEF700390281 /* Security.swift */; };
+		98AA33461B29234F006D1505 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AA33451B29234F006D1505 /* WebSocket.swift */; };
+		98AA33481B292388006D1505 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AA33471B292388006D1505 /* Security.swift */; };
 		BD533BC91B19F0E700146311 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD533BC81B19F0E700146311 /* AppDelegate.swift */; };
 		BD533BCC1B19F0E700146311 /* GirlBorn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD533BCA1B19F0E700146311 /* GirlBorn.xcdatamodeld */; };
 		BD533BCE1B19F0E700146311 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD533BCD1B19F0E700146311 /* ViewController.swift */; };
@@ -29,9 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BD2459D71B22FED600390281 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = "../../../../../Downloads/Starscream-master/WebSocket.swift"; sourceTree = "<group>"; };
-		BD2459D91B22FEF700390281 /* Security.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Security.swift; path = "../../../../../Downloads/Starscream-master/Security.swift"; sourceTree = "<group>"; };
-		BD2459DA1B22FEF700390281 /* Starscream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Starscream.h; path = "../../../../../Downloads/Starscream-master/Starscream.h"; sourceTree = "<group>"; };
+		98AA33451B29234F006D1505 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		98AA33471B292388006D1505 /* Security.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Security.swift; sourceTree = "<group>"; };
+		98AA33491B2923BD006D1505 /* Starscream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Starscream.h; sourceTree = "<group>"; };
 		BD533BC31B19F0E700146311 /* GirlBorn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GirlBorn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD533BC71B19F0E700146311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD533BC81B19F0E700146311 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,9 +84,6 @@
 		BD533BC51B19F0E700146311 /* GirlBorn */ = {
 			isa = PBXGroup;
 			children = (
-				BD2459D91B22FEF700390281 /* Security.swift */,
-				BD2459DA1B22FEF700390281 /* Starscream.h */,
-				BD2459D71B22FED600390281 /* WebSocket.swift */,
 				BD533BC81B19F0E700146311 /* AppDelegate.swift */,
 				BD533BCD1B19F0E700146311 /* ViewController.swift */,
 				BD533BCF1B19F0E700146311 /* Main.storyboard */,
@@ -94,6 +91,9 @@
 				BD533BD41B19F0E700146311 /* LaunchScreen.xib */,
 				BD533BCA1B19F0E700146311 /* GirlBorn.xcdatamodeld */,
 				BD533BC61B19F0E700146311 /* Supporting Files */,
+				98AA33451B29234F006D1505 /* WebSocket.swift */,
+				98AA33471B292388006D1505 /* Security.swift */,
+				98AA33491B2923BD006D1505 /* Starscream.h */,
 			);
 			path = GirlBorn;
 			sourceTree = "<group>";
@@ -224,9 +224,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD533BCE1B19F0E700146311 /* ViewController.swift in Sources */,
-				BD2459D81B22FED600390281 /* WebSocket.swift in Sources */,
+				98AA33461B29234F006D1505 /* WebSocket.swift in Sources */,
 				BD533BCC1B19F0E700146311 /* GirlBorn.xcdatamodeld in Sources */,
-				BD2459DB1B22FEF700390281 /* Security.swift in Sources */,
+				98AA33481B292388006D1505 /* Security.swift in Sources */,
 				BD533BC91B19F0E700146311 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
