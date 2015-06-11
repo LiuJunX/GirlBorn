@@ -28,6 +28,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, WebSocketDelegate {
     
     func websocketDidReceiveMessage(socket: WebSocket, text: String) {
         println("got some text: \(text)")
+        if text == "yes"
+        {
+            println("login successed")
+        } else
+        {
+            println("login failed")
+        }
     }
     
     func websocketDidReceiveData(socket: WebSocket, data: NSData) {
